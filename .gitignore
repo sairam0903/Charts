@@ -1,0 +1,62 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IDEs and editors ###
+.idea
+*.iws
+*.iml
+*.ipr
+.c9/
+*.launch
+*.sublime-workspace
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# frontend build path
+src/main/resources/static
+
+# frontend dependencies
+frontend/node_modules
+
+# frontend compiled output
+frontend/dist
+frontend/out-tsc
+frontend/tmp
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# frontend misc
+frontend/.sass-cache
+frontend/connect.lock
+frontend/coverage
+frontend/libpeerconnection.log
+frontendnpm-debug.log
+frontendtestem.log
+frontend/typings
+
+# frontend e2e
+frontend/e2e/*.js
+frontend/e2e/*.map
+
+# frontend System Files
+frontend/.DS_Store
+frontend/Thumbs.db
