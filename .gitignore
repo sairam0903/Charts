@@ -26,6 +26,8 @@ dist/
 nbdist/
 .nb-gradle/
 
+/logs
+
 # frontend build path
 src/main/resources/static
 
