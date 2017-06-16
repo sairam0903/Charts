@@ -7,6 +7,7 @@ import {ChartService} from '../services/chart.service';
     styleUrls: ['./charts-home.component.scss']
 })
 export class ChartsHomeComponent implements OnInit {
+    private chartSeries: any;
     
     constructor(private chartSvc: ChartService) {
     }
@@ -17,7 +18,7 @@ export class ChartsHomeComponent implements OnInit {
     
     private getChart(): void {
         this.chartSvc.getChart().subscribe(response => {
-            console.log(response);
+            this.chartSeries = response;
         })
     }
     
