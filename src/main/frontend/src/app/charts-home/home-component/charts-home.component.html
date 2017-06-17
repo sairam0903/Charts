@@ -1,0 +1,9 @@
+<div [id]="'sampleChart'" class="chart-container">
+    <app-chart [seriesData]="chartSeries"
+               [loading]="false"
+               [type]="'spline'"
+               [title]="'Sample Chart'"
+               [id]="'sampleChart'"
+               [allowPointSelect]="false"
+               (clicked)="getChart($event, chart)"></app-chart>
+</div>
